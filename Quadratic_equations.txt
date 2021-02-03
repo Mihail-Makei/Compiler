@@ -1,0 +1,55 @@
+vars: a, b, c, d;
+
+functions: ;
+
+begin
+    input a
+    input b
+    input c
+
+    if a; <> 0;
+    begin
+        d =: b * b - 4 * a * c;
+        if d; > 0;
+        begin
+            output (0 - b - sqrt(d)) / (2 * a);
+            output (0 - b + sqrt(d)) / (2 * a);
+        end
+
+        if d; == 0;
+        begin
+            output (0 - b) / (2 * a);
+        end
+
+        if d; < 0;
+        begin
+            output 0-1;
+            output 0-1;
+            output 0-1;
+        end
+    end
+    if a; == 0;
+    begin
+        if b; <> 0;
+        begin
+            output (0 - c) / b;
+        end
+        if b; == 0;
+        begin
+            if c; <> 0;
+            begin
+                output 0-1;
+                output 0-1;
+                output 0-1;
+            end
+
+            if c; == 0;
+            begin
+                output 0;
+                output 0;
+                output 0;
+            end
+        end
+    end
+finish
+

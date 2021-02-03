@@ -1,0 +1,22 @@
+vars: cat, kitten;
+
+functions: factorial;
+
+begin
+    input kitten
+    cat =: 1;
+    call factorial
+    output cat;
+finish
+
+func factorial
+begin
+    cat =: cat * kitten;
+    kitten =: kitten - 1;
+    if kitten; == 1;
+    begin
+        return
+    end
+    call factorial
+    return
+end

@@ -1,0 +1,33 @@
+vars: cat;
+
+functions: ;
+
+begin
+    setwindow 100; 100;
+    circle 30; 30; 20; 219;
+    line 0; 0; 11; 23; 219;
+    line 0; 0; 17; 14; 219;
+    line 60; 0; 43; 14; 219;
+    line 60; 0; 49; 23; 219;
+    circle 22; 21; 4; 219;
+    circle 38; 21; 4; 219;
+    vline 19; 17; 24; 219;
+    vline 20; 17; 24; 219;
+    vline 23; 17; 24; 219;
+    vline 24; 17; 24; 219;
+    vline 35; 17; 24; 219;
+    vline 36; 17; 24; 219;
+    vline 39; 17; 24; 219;
+    vline 40; 17; 24; 219;
+    hline 27; 33; 31; 219;
+    hline 28; 32; 30; 219;
+    hline 29; 31; 29; 219;
+    setpixel 30; 28; 219;
+    circle 25; 37; 5; 219;
+    circle 35; 37; 5; 219;
+    partclear 20; 32; 40; 38;
+    line 10; 30; 50; 40; 219;
+    line 10; 40; 50; 30; 219;
+    hline 10; 50; 35; 219;
+    show
+finish

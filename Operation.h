@@ -1,0 +1,7 @@
+DEF_OPERATORS(hungry, 0)
+
+DEF_OPERATORS(func, 1)
+
+DEF_OPERATORS(endf, 2)
+
+DEF_OPERATORS()

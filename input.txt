@@ -1,0 +1,15 @@
+begin
+    input x
+    input y
+    input z
+    while x; <= y;
+    begin
+        input x
+        output x+y+z;
+    end
+finish
+
+func Memes
+begin
+    input y
+end

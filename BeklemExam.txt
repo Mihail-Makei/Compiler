@@ -1,0 +1,14 @@
+vars: students;
+
+functions: ;
+
+begin
+    input students
+    output students;
+    while students; > 0;
+    begin
+        output 2;
+        students =: students - 1;
+    end
+    output students;
+finish
