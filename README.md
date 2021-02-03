@@ -43,3 +43,11 @@ end
  - Variables may have any name except for those starting with semicolon, a number or having the same name or prefix as the keywords.
 # Functions
  - The same as variables.
+# Examples
+Here are some simple programs written using this language.
+1. program.txt - a program counting the factorial.
+2. BeklemExam.txt - a program containing a cycle and input/output operations.
+3. QuadraticEquations.txt - a program solving the square equations.
+4. Cat.txt - a program drawing a console ASCII cat.
+# Plans for future
+To add the support of local variables and external files and libraries.
